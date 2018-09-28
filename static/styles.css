@@ -1,7 +1,32 @@
 #top {
-    background-image: url("https://hatonabox.github.io/hyper.jpg");
+    position: relative;
 }
 
-h1 {
+
+#topText {
+    
+    position: absolute;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 35px;
+}
+
+
+#topImg {
+    padding-left: 0px;
+    padding-right: 100px;
+    width: 100%;
+    
+    -webkit-filter: opacity(.7);
+    filter: opacity(.7);
+    
+    height: auto;
+    max-height: 500px;
+}
+
+* {
     font-family: sans-serif;
 }
