@@ -1,3 +1,7 @@
+#top {
+    background-image: url("https://hatonabox.github.io/hyper.jpg");
+}
+
 h1 {
-    color: red;
+    font-family: sans-serif;
 }
