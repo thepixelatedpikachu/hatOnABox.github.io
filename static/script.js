@@ -1,5 +1,5 @@
 // load content when the document has loaded
-$(document).ready(() => {
+$(function() {
 
     // when the user hovers over h1 tags underline them
     $("h1").hover(function() {
